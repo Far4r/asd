@@ -1,0 +1,149 @@
+* {
+	font-family: "Times New Roman", Georgia;
+    margin: 0;
+    padding: 0;
+}
+.nav-header {
+	text-align: left;
+	border-color: black;
+	background-color: rgba(103, 157, 151, 1.0);
+	height: 65px;
+}
+.nav {
+	display: flex;
+	list-style: none;
+}
+.nav > .nav-item {
+	text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: 20px;
+}
+.nav > .nav-toRight {
+	text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: 20px;
+	margin-left: auto;
+}
+.nav-item > a {
+	text-decoration: none;
+}
+.nav-toRight > a {
+	text-decoration: none;
+}
+.stick {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+.cover {
+	padding-top: 85px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background: linear-gradient(45deg, rgb(45, 69, 113, 0.8), #142A53);
+	color: whitesmoke;
+	height: 105vh;
+}
+button {
+	cursor: pointer;
+}
+.buttons-div {
+	display: flex;
+	justify-content: center;
+}
+.game {
+	background-color: #F0F8FF;
+	border: solid black;
+	border-width: 3px;
+}
+.collapse {
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+@media only screen and (max-width: 600px) {
+	.nav-header {
+		font-size: 0.6em;
+		padding: 0;
+	}
+}
+.grid {
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+.box {
+    background-color: #669999;
+    padding: 30px;
+    margin: 20px;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+.project-link > img {
+    width: 100%;
+}
+.project-link > img:hover {
+    cursor: pointer;
+}
+.box:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    transform: rotate(-4deg);
+    cursor: pointer;
+}
+.project-link > p {
+	padding: 0;
+    margin: 0;
+	font-size: 0.7em;
+}
+footer {
+	background-color: #FFAAAA;
+}
+
+
+
+
+
+.list {	
+	padding-top: 65px;
+	text-align: left;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	column-gap: 5px;
+}
+
+
+
+
+
+
+
+
+.generator {
+	justify-content: flex-start;
+	column-gap: 5px;
+}

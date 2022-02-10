@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game Of Life</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+
+</head>
+<body>
+	<nav class="nav-header stick">
+		<ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link"href="#">Main</a>
+			</li>
+		  	<li class="nav-item">
+		    	<a class="nav-link" href="About.html">About</a>
+		 	</li>
+			<li class="nav-item">
+		    	<a class="nav-link" href="CreatorInfo.html">Creator Info</a>
+			</li>
+			<li class="nav-toRight">
+		    	<a class="nav-link" href="Contact.html">Contact Information</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="cover">
+		<h1>Game of Life</h1>
+		<p>The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.</p>
+		<p>The player does not directly participate in the game, but only arranges or generates the initial configuration of "living" cells, which then interact according to the rules without his participation</p>
+		<ol>
+			<li>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</li>
+			<li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+			<li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
+			<li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+		</ol>
+		<p>Make sure to click "stop" button after every iteration</p>
+		<canvas class = "game" id="gamefield" width="1000px" height="800px">
+		</canvas>
+		<div class="buttons-div">
+    		<button id="start-random">Start Random</button>
+        	<button id="stop">Stop</button>
+        	<button id="start-arranged">Start Arranged</button>
+    	</div>
+	</div>
+	<div class="project grid">
+		<div class="box"><a class="project-link" href="List.html"><p>Simple To Do list, in which you can add things you want to do.</p><img src="./img/files_2.png"></a></div>
+	    <div class="box"><a class="project-link" href="backgroundGen.html"><p>Simple background generator.</p><img src="./img/server_2_2.png"></a></div>
+	</div> 
+	<footer>That's it</footer>
+</body>
+	<script type="text/javascript" src="MainPageJs.js"></script>
+	<script type="text/javascript" src="Index.js"></script>
+</html>
